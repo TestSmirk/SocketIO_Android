@@ -313,7 +313,7 @@ public class MainFragment extends Fragment {
         }
     };
 
-    private Emitter.Listener onConnectError = new Emitter.Listener() {
+    private Emitter.Listener onConnectError =   new Emitter.Listener() {
         @Override
         public void call(Object... args) {
             getActivity().runOnUiThread(new Runnable() {
